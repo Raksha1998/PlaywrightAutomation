@@ -1,6 +1,6 @@
 const {test, expect } = require('@playwright/test');
 
-test('Circula sign up page dropdown test',async ({page})=>{
+test('Circula sign up page test',async ({page})=>{
 
     //Step 1: Navigate to sign-up page.
     await page.goto('https://app.circula.com/users/sign_up');
